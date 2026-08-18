@@ -11,6 +11,8 @@ echo 'Testes: ' . $nome;
 $query_insert = "INSERT INTO usuarios (nome, email) VALUES ('$nome','$email')";
  $conexao->query($query_insert);
 
+ 
+
 /*
 $query_select = "SELECT login FROM usuarios WHERE login = '$login'";
 $select = mysql_query($query_select,$connect);
